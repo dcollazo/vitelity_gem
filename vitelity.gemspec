@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'vitelity'
-  s.version = '0.0.0'
+  s.version = '0.0.1'
 
   s.date = '2013-05-06'
   s.summary = "Vitelity API"
