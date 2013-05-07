@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.files = ["lib/vitelity.rb"]
   s.homepage = 'https://github.com/dcollazo/vitelity_gem'
 
-  s.add_dependency('rest_client')
+  s.add_dependency('rest-client')
   s.add_dependency('awesome_print')
 end
