@@ -4,4 +4,5 @@ gemspec
 
 gem 'rest-client'
 gem 'awesome_print'
+gem 'activesupport'
 
