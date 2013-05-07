@@ -5,10 +5,10 @@ Provides access to Vitelity's developer API.
 # Requirements
 
 ###rest_client
-###awesome_print_
+###awesome_print
 
 # Installing
 
 % gem install vitelity_gem
 
-# Usage_
+# Usage
