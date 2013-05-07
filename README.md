@@ -19,6 +19,8 @@ Instantiate a new Vitelity client and use 'getlocaldid' to order a new number, a
 
 ### Methods
 http://apihelp.vitelity.net/
+
+###Billing
 ####balance
 Reports back your current account balance
 ####cdrlist
@@ -28,6 +30,7 @@ Reset cdr records for the cdrlist api command (you cannot undo this)
 ####didcdrdetail
 Give the seconds of use and cost for a specific did for a timeframe
 ####subaccountcdrdetail
+###DID Inventory
 Pull details records for a specific sub account for a date range
 ####listtollfree
 Lists all toll free numbers that are available for immediate order
@@ -63,6 +66,7 @@ Lists all available local numbers with a specific npa / area code
 Set the callerid name for a specific number (lidb / cnam)
 ####lidbavailall
 List all numbers where lidb / callerid / cnam name change is available
+###DID Ordering
 ####getbackorder
 Get the status of a did backorder to tell if it's been filled
 ####gettollfree
@@ -81,6 +85,7 @@ Orders a specific international did based on ratecenter/country
 Get rate for backordering a ratecenter
 ####didforcebilling
 Force the billing for a specific did to a certain sub account
+###E911
 ####e911send
 Input or update new 911 address for a specific did number
 ####e911delete
@@ -89,6 +94,7 @@ Delete a registered 911 address from a specific did
 Check eligibility of a specific address for 911 service
 ####e911getinfo
 Get 911 information on a specific did number
+###Fax
 ####listincomingfaxes
 Lists all incoming faxes
 ####getfax
@@ -127,6 +133,7 @@ Set the number of daily outbound faxes a specific vfax account can send per day
 Return a full list of your vfax numbers
 ####delfaxacc
 Remove existing vfax account
+###LNP
 ####addport
 Add lnp order
 ####uploadsignature
@@ -137,8 +144,10 @@ Upload bill for lnp order if required. bill copy must be in pdf or jpg formats. 
 Check lnp availability for did number
 ####checkmultiavail
 Check lnp availability for multiple did numbers at once. will respond with number:support. (support may be voice, both or nosupport) both means voice & vfax.
+###Placing A Call
 ####callfromclick
 Sends someone a phone call that then connects them to customer service/another number.
+###Routing & Network
 ####reroute
 Changes the sub account or ip that the did routes to
 ####routeall
@@ -179,6 +188,7 @@ Delete voicemail account
 Migrate did numbers from one sub account to another
 ####massreroute
 Changes the sub account or ip that multiple dids routes to
+###SMS
 ####checksms
 Check availability of sms on a specific did
 ####removesms
@@ -195,6 +205,7 @@ Enable sms functionality on a specific did
 Enable sms functionality on a specific did and sends via an httpd request. will post the variables: $msgid, $src, $dst and $msg to your url.
 ####sendshort
 Send short code sms messages over api
+###Telecom Functions
 ####cnam
 Looks up the specific caller id name for a specific number
 ####npanxxlookup
