@@ -30,8 +30,8 @@ Reset cdr records for the cdrlist api command (you cannot undo this)
 ####didcdrdetail
 Give the seconds of use and cost for a specific did for a timeframe
 ####subaccountcdrdetail
-###DID Inventory
 Pull details records for a specific sub account for a date range
+###DID Inventory
 ####listtollfree
 Lists all toll free numbers that are available for immediate order
 ####listlocal
