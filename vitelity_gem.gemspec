@@ -9,4 +9,7 @@ Gem::Specification.new do |s|
   s.email = 'davidcollazo@gmail.com'
   s.files = ["lib/vitelity_gem.rb"]
   s.homepage = 'https://github.com/dcollazo/vitelity_gem'
+
+  s.add_dependency('rest_client')
+  s.add_dependency('awesome_print')
 end
