@@ -18,7 +18,7 @@ activesupport
 
 http://apihelp.vitelity.net/
 
-## Examples
+## Example
 Instantiate a new Vitelity client and use 'getlocaldid' to order a new number, and then use callfw to forward it to an existing number.
 
 client = Vitelity.new('your_username', 'your_password')  
