@@ -2,6 +2,6 @@ source "https://rubygems.org"
 
 gemspec
 
-gem 'rest_client'
+gem 'rest-client'
 gem 'awesome_print'
 
