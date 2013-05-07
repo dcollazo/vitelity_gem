@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'Vitelity'
+  s.name = 'vitelity'
   s.version = '0.0.0'
 
   s.date = '2013-05-06'
