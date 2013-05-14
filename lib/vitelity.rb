@@ -2,7 +2,6 @@
 # encoding: utf-8
 
 require 'rest_client'
-require 'awesome_print'
 require 'active_support/core_ext/hash/conversions'
 
 class Vitelity

@@ -11,6 +11,5 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/dcollazo/vitelity_gem'
 
   s.add_dependency('rest-client')
-  s.add_dependency('awesome_print')
   s.add_dependency('activesupport')
 end
