@@ -210,3 +210,7 @@ Send short code sms messages over api
 Looks up the specific caller id name for a specific number
 ####npanxxlookup
 Lookup ratecenter & state name in lerg format
+
+## Copyright
+
+(C) 2013 NetVersa, LLC.
